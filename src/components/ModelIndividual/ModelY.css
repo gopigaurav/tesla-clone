@@ -1,0 +1,281 @@
+a.active {
+  background: white !important;
+  margin: 5px !important;
+}
+.fp-right > ul > li > a {
+  width: 3px !important;
+  border-radius: unset !important;
+  margin: 5px !important;
+}
+.fp-right > ul > li > a {
+  background-color: black;
+  margin: 5px !important;
+}
+.fp-right > ul > li > a > span:nth-child(2) {
+  display: none;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+  height: 40px !important;
+}
+.coverimgDiv {
+  width: 100%;
+  position: relative;
+}
+.coverimage {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+/* Heading*/
+.coverText {
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.cimCoHead {
+  font-size: 42px;
+  font-weight: 500;
+  margin: auto;
+}
+.cimPlain {
+  font-size: 15px;
+  margin: auto;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+.carDetails {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 4rem;
+  left: 22%;
+  color: #fff;
+  width: 70%;
+  justify-content: space-between;
+}
+.ccc_ddiv {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.carDt_infos {
+  font-size: 30px;
+  font-weight: 600;
+  margin: auto;
+}
+.carDt_text {
+  margin: auto;
+}
+
+/* second row */
+.secDiv {
+  position: relative;
+}
+.secImgTextd {
+  position: absolute;
+  top: 2rem;
+  color: white;
+  z-index: 3;
+  left: 40%;
+}
+.secImgText {
+  font-size: 30px;
+  font-weight: 500;
+}
+.secOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(180deg, black, transparent);
+}
+
+/* Third div */
+.thirddiv {
+  width: 70%;
+  margin: 7rem auto;
+}
+
+/* Car */
+.car {
+  display: flex;
+  flex-direction: row-reverse;
+  background: white;
+  position: relative;
+}
+
+.car__image > img {
+  object-fit: contain;
+  width: 1000px;
+}
+
+.car__model {
+  font-weight: 500;
+  font-size: xx-large;
+  margin-top: -180px;
+  text-transform: capitalize;
+}
+.car__actions > button {
+  width: 230px;
+  margin-bottom: 30px;
+}
+.car__actions {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.car__info > span {
+  color: #fff;
+  cursor: pointer;
+}
+.coverImg_btn {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+/* 2nd section */
+.sec_sec_div {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.sec__left {
+  flex: 0.2;
+  padding: 20px;
+  height: 100%;
+}
+.sec__leftw {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec__right {
+  flex: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.sec__right > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec__left_img__div {
+  width: 100%;
+  height: 100%;
+}
+.sec__left_img__div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Third section */
+.thrd__sect {
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  font-size: 15px;
+}
+.img_div {
+  flex: 0.5;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.img_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.thrd__right {
+  flex: 0.5;
+  height: 100%;
+  width: 100%;
+  margin: 3em auto;
+}
+.thrd__right_rig {
+  width: 100%;
+  display: flex;
+  align-items: self-start;
+}
+.btns__bt {
+  display: flex;
+  align-items: center;
+}
+.btns__o {
+  width: 25%;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  margin: 2em 5px 2em 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+}
+.thrd__right_rig {
+  margin: 1em 0;
+  width: 100%;
+}
+.hrfrfdjeud {
+  padding: 1em 0;
+}
+.edne_right {
+  width: 50%;
+}
+.edne_left {
+  width: 50%;
+}
+.ednend_hr{
+    width: 30px;
+}
+.hrfrfdjeud > p:nth-child(1){
+    font-weight: 500;
+    font-size: 17px;
+}
+.car {
+    display: flex;
+    flex-direction: row-reverse;
+    background: black;
+    position: relative;
+    height: 100%;
+  }
+  
+  .car__image > img {
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .car__model {
+    font-weight: 500;
+    font-size: xx-large;
+    margin-top: -180px;
+    text-transform: capitalize;
+  }
+  .car__actions > button {
+    width: 230px;
+    margin-bottom: 30px;
+  }
+  .car__actions {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+  }
+  .car__info > span {
+    color: #fff;
+    cursor: pointer;
+  }
+  

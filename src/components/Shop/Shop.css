@@ -1,0 +1,58 @@
+.shopHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 20px auto;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.shopBestSell {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.AccImgs {
+  width: 95%;
+  margin: auto;
+}
+.fsrtmg {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fsrtmg > img {
+  width: 100%;
+  object-fit: cover;
+}
+.nrtmg {
+  width: 49%;
+  overflow: hidden;
+}
+.nrtmg > img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.nrtmggg {
+  width: 49%;
+  overflow: hidden;
+}
+.nrtmggg > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin: 20px auto;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin: 20px auto;
+  justify-content: space-between;
+  font-size: 10px;
+  letter-spacing:1px;
+}
+.footer > p{
+    cursor: pointer;
+}

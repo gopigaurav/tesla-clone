@@ -1,0 +1,18 @@
+.buttonPrimary {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 12px 40px;
+  border-radius: 50px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 30px;
+  transition: all 0.4s;
+  margin: 20px;
+}
+
+.buttonPrimary:hover {
+  background-color: rgb(246, 241, 241);
+}
