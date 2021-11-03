@@ -18,12 +18,9 @@ function App() {
   const showMenu = useSelector((state) => state.showMenu);
   return (
     <>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         {showMenu && <MenuBar />}
         <Switch>
-          <Route exact path="/">
-            <Page />
-          </Route>
           <Route exact path="/login">
             <Login />
           </Route>
@@ -38,6 +35,9 @@ function App() {
           </Route>
           <Route exact path="/models">
             <Models/>
+          </Route>
+          <Route path="/">
+            <Page />
           </Route>
         </Switch>
       </Router>
