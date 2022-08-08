@@ -1,7 +1,6 @@
 {
   "name": "tesla",
   "version": "0.1.0",
-  "homepage": "https://gopigaurav.github.io/tesla-clone",
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
@@ -31,8 +30,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
